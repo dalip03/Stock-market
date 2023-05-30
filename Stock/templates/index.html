@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content%}
+<body>
+
+    <h2>At index page</h2>
+
+    {%for list in context %}
+
+    {%for i in list %}
+
+    <p>{{ i }}</p>
+ 
+{%endfor%}
+ 
+{%endfor%}
+  </body>
+
+
+{% endblock %}

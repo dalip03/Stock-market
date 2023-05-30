@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content%}
+
+
+<h1 >
+
+Live Prices Stocks
+</h1>
+
+
+
+<div class="bg">
+<div class="table1" >
+  <div class="mx-auto">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          {% for r in tablehead %}
+          <th>{{ r}} </th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for j in context %}
+        <tr>
+
+          {% for r in j %}
+          <td>{{ r }} </td>
+          {% endfor %}
+
+        </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- <form action="/prediction" class="inline">
+  <div class="btn2">
+    <button type="prediction" class="btn btn-primary">Classify</button>
+  </div>
+</form> -->
+</div>
+{% endblock %}

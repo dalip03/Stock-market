@@ -1,0 +1,146 @@
+.dd1{
+    overflow-x: hidden;
+}
+.dd1 p{
+    color: rgba(0, 0, 0, 0.395);
+    font-weight: 700;
+}
+.stocks{
+    height: 200px;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+}
+.stocks3{
+    position: absolute;
+    margin-top: -530px;
+    margin-left: 12px;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+/* .boughth{
+    position: absolute;
+    margin-top: -350px;
+    
+} */
+.dd1 h4{
+    color: rgba(0, 0, 0, 0.685);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dvv1{
+    display: flex;
+    border: 1px solid black;
+    height: 800px;
+}
+.dvv1 h4{
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.231);
+}
+.stocks2{
+    /* border: 1px solid rgba(0, 0, 0, 0.297); */
+    height: 450px;
+    position: absolute;
+    border-left: 1px solid black;
+}
+.tabled{
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    /* border: 1px solid black ; */
+}
+.table21{
+    /* border: 1px solid red; */
+    margin-left: 80px;
+}
+.tabled1{
+    border: 1px solid red;
+}
+.tabled , th, tr{
+    /* border: 1px solid black; */
+
+    align-items: center;
+    text-align: center;
+}
+.tabled th{
+    color: gray;
+    border-top: 1px solid rgba(0, 0, 0, 0.116);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+    width: 250px;
+}
+
+
+/* table start */
+
+.bg2{
+    margin-top: 35px;
+    /* overflow-x: scroll; */
+    /* border: 1px solid black; */
+
+}
+.thead-dark1{
+    color: grey;
+}
+.tblrow1{
+        color: grey;
+}
+/* table end */
+.ttt{
+    /* color: blue; */
+}
+#hd{
+   color: gray; 
+}
+/* #scroll-text{
+    position: absolute;
+    margin-top: -40px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+    height: 40px;
+    box-shadow: 10px 10px solid black;
+} */
+
+/* css  */
+#scroll-container {
+    border: 1px solid rgba(0, 0, 0, 0.167);
+    box-shadow: 10px 10px solid red;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  #scroll-text {
+    text-align: right;
+  
+    /* animation properties */
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(-100%); }
+    to { -moz-transform: translateX(100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
+
+/* end css */
