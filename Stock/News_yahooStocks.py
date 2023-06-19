@@ -13,14 +13,14 @@ def yahooNews():
         b = b+'.'
         
 
-        if (len(b)<120):
-            b=b+ temp2['summary'].split(".")[1]
-            b = b+'.'
-            scraped_news= scraped_news+(b)
-        else:
-            scraped_news= scraped_news+(b)
+        # if (len(b)<120):
+        #     b=b+ temp2['summary'].split(".")[1]
+        #     b = b+'.'
+        #     scraped_news= scraped_news+(b)
+        # else:
+        #     scraped_news= scraped_news+(b)
 
-        allNews.append(scraped_news)
+        allNews.append(b)
     return allNews
 # temp = yahooNews()
 # print(temp)
